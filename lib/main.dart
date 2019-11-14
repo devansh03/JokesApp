@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jokes_app/home.dart';
 
-void main() => runApp(Jokes());
+void main() async => runApp(Jokes());
 
 class Jokes extends StatelessWidget {
   @override

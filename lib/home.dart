@@ -30,7 +30,7 @@ int selectedIndex = 0;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Jokes! Jokes! Jokes!"),
+        title: Text("Jokes! Jokes! Joks!"),
         backgroundColor: Colors.blueGrey,
         actions: <Widget>[
           new IconButton(
@@ -47,8 +47,8 @@ int selectedIndex = 0;
         unselectedItemColor: Colors.white,
         unselectedLabelStyle: TextStyle(color: Colors.white),
         currentIndex: selectedIndex,
-        selectedItemColor: Colors.orangeAccent,
-        selectedLabelStyle: TextStyle(color: Colors.orangeAccent),
+        selectedItemColor: Colors.orangeAccent[700],
+        selectedLabelStyle: TextStyle(color: Colors.orangeAccent[700],fontWeight: FontWeight.bold),
         onTap: onItemTapped,
         items: [
           BottomNavigationBarItem(

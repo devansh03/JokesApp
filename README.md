@@ -1,16 +1,6 @@
-# jokes_app
+# JOKES APP
 
-Jokes will be shown to the user.
+This app is made for fun. It shows jokes to the user.
 
-## Getting Started
+I could not find proper APIs for Programming and Animal jokes. If you find a good API or JSON file, please add it to the code and make the required changes to the app and send a pull equest.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

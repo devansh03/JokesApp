@@ -25,11 +25,17 @@ dependencies:
   cupertino_icons: ^0.1.2
   url_launcher: ^5.2.4
   http: ^0.12.0+2
+  flutter_launcher_icons: ^0.7.4
 
   
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/laughing_icon_emoji.jpg"
 
 
 # For information on the generic Dart part of this file, see the
@@ -54,6 +60,10 @@ flutter:
     - images/StackOverflow.png
     - images/twitter.png
     - images/reddit.png
+    - images/laugh_general.jpg
+    - images/laughing_icon_emoji.jpg
+    - images/comedy_images_2.jpeg
+    - images/comedy_images_3.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

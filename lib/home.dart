@@ -30,7 +30,7 @@ int selectedIndex = 0;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Jokes! Jokes! Joks!"),
+        title: Text("Jokes For You!"),
         backgroundColor: Colors.blueGrey,
         actions: <Widget>[
           new IconButton(
@@ -43,6 +43,7 @@ int selectedIndex = 0;
         ],
       ),
       bottomNavigationBar: new BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.blueGrey,
         unselectedItemColor: Colors.white,
         unselectedLabelStyle: TextStyle(color: Colors.white),
@@ -62,7 +63,7 @@ int selectedIndex = 0;
           BottomNavigationBarItem(
             icon: Icon(Icons.adjust),
             title: Text("Animals")
-          ),
+          )
         ],
       ),
       body: Center(
